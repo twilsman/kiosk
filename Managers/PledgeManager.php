@@ -6,7 +6,7 @@
 
     $pledgeAccessor = new PledgeAccessor();
 
-    $pc = new PledgeContext();
+    $pc = new Pledge();
 
     $pc->FirstName = $_POST["first_name"];
     $pc->LastName = $_POST["last_name"];
@@ -25,5 +25,5 @@
 
     $pledgeAccessor->CreatePledge($pc, $dc);
 
-    header("Location: thankyou.html");
+    header("Location: ../thankyou.html");
  ?>
