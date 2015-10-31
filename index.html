@@ -2,6 +2,7 @@
     <head>
         <title></title>
         <link rel="stylesheet" href="styles/kiosk.css" />
+        <link rel="stylesheet" href="styles/als.css" />
     </head>
 
     <body>
@@ -19,15 +20,15 @@
                     Morbi pharetra leo et dui hendrerit congue ac sit amet diam. Donec quis nibh a neque accumsan mattis. Nam convallis mauris in auctor porta. Ut id accumsan metus, eget fringilla tellus. Quisque ipsum magna, hendrerit vel ornare quis, tristique quis lectus. Vestibulum tortor sapien, varius a ullamcorper quis, congue porttitor ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam tempus eros a leo viverra rutrum. Maecenas euismod lorem sed mauris laoreet dignissim. Curabitur sed luctus erat, et gravida libero. Fusce hendrerit orci eu condimentum feugiat. Suspendisse id volutpat justo. Praesent est massa, tincidunt id est eleifend, sagittis finibus justo. Nam eu maximus tellus, sed sollicitudin sapien. Donec quam nisi, viverra eu vulputate sed, efficitur a ex.
                 </p>
 
-                <p>
-                    Nullam ultrices at mauris at sagittis. Morbi sit amet fermentum massa. Nam efficitur justo erat, at congue massa luctus eu. Sed venenatis placerat lacus, eget molestie dui dapibus ut. Pellentesque eget ipsum odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce fringilla id urna quis consequat. In hac habitasse platea dictumst. Phasellus ut ornare odio.
-                </p>
 
-                <p>
-                    Donec venenatis non metus quis mollis. Nulla id ante tincidunt est congue eleifend. Sed et lorem id ex aliquet blandit sed non sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce vel vulputate lacus. Curabitur maximus pretium elementum. Curabitur a lorem vel tortor pellentesque iaculis in sit amet magna. Maecenas fermentum, tortor at viverra sagittis, sapien erat commodo velit, semper rutrum felis eros et nunc. Cras sagittis et tellus vel scelerisque. Curabitur elementum elit erat, sed faucibus enim iaculis non. Suspendisse potenti.
-                </p>
+                <div class="list als-container">
+                    <div class="als-viewport">
+                        <ul class="als-wrapper">
 
-
+                        </ul>
+                      </div>
+                    </div>
+                </div>
 
             </div>
             <div class="right-pane">
@@ -67,6 +68,29 @@
                 </form>
             </div>
         </div>
+        <script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery.als-1.7.min.js"></script>
+        <script type="text/javascript">
 
+            $.when($.ajax("Managers/CompanyManager.php")).done(function(companies_json){
+                var companies = $.parseJSON(companies_json);
+                $.each(companies, function(index, company){
+                    $(".als-wrapper").append('<li class="als-item">'+ company.company +'</li>')
+                });
+
+                $(".list").als({
+                    visible_items: 10,
+                    scrolling_items: 1,
+                    orientation: "vertical",
+                    circular: "yes",
+                    autoscroll: "yes",
+                    interval: 5000,
+                    direction: "up",
+                    start_from: 0,
+                    speed: 2000,
+                    easing: "linear"
+                });
+            });
+        </script>
     </body>
 </html>

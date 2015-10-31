@@ -2,6 +2,8 @@
     class PledgeAccessor{
 
         function CreatePledge(Pledge $pc, DbContext $dc){
+            var_dump($pc);
+            var_dump($dc);
 
             $mysqli = new mysqli($dc->ServerName,
                                  $dc->UserName,
