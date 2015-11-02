@@ -1,19 +1,14 @@
 <html>
 
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+       
         <title></title>
-        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="scripts/bootstrap-3.3.5-dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="styles/kiosk.css" />
+		<?php require_once("partials/header_scripts.php"); ?>
     </head>
 
     <body>
         <div class="container-fluid">
-            <div class="row header">
-                <div class="col-sm-1 col-sm-push-10 cision-logo-container"><img src="http://cision-wp-files.s3.amazonaws.com/se/wp-content/uploads/2015/10/cision-logo-rebranded.png" alt="Cision" title="Cision" style="max-width: 135px; width: auto; max-height: 80px;"></div>
-                <div class="col-sm-10 col-sm-pull-1 pitch-logo-container">#pitch<span style="color: #F15D22">PR</span>omise</div>
-            </div>
+            <?php require_once("partials/header.php"); ?>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-5 col-sm-push-7 pledge-form">
@@ -299,7 +294,7 @@
 
                             <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-xs-2 col-xs-push-4">
+                                    <div class="col-xs-2 col-xs-push-3">
                                         <input type="submit" value="" class="i-promise" required="required" />
                                     </div>
                                 </div>
@@ -312,21 +307,26 @@
                         </h3>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum pellentesque sapien, vel mollis metus porttitor sit amet. Cras lorem quam, pulvinar id faucibus eget, hendrerit in lacus. Nam quis condimentum neque.
+                            Technology can help PR pros work faster, 
+							but it can’t replace one of the core tenants on which the industry is built: <span style="font-weight: bold; font-style: italic;">Relationships</span>. 
+							Don’t sit back and simply let technology do your job for you. 
+							Instead, sign the #pitchPRomise to share your commitment to focusing on relationships 
+							and practicing smarter influencer relations.
                         </p>
 
+						<p>
+							I, <span style="text-decoration: underline;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>, pledge to:
+						</p>
+						
                         <ul class="copy-list">
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Treat influencers as valued partners – not commodities, outlets or channels.</li>
+                            <li>Respect the inbox and preferences of influencers I engage, instead of spamming them with irrelevant pitches and non-personalized communications.</li>
+                            <li>Use technology to build relationships, not replace them.</li>
+                            <li>Engage influencers on a regular basis – not just when making an ask.</li>
                         </ul>
 
                         <div class="pledge-list container-fluid">
-                            <div class="pledge-list-header">They've taken the pledge:</div>
+                            <div class="pledge-list-header">See who's taken the PRomise:</div>
                             <div class="pledge-scroll">
                                 <ul class="scroller-wrapper container-fluid">
 
@@ -341,9 +341,8 @@
             </div>
 
         </div>
-        <script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
+		<?php require_once("partials/footer_scripts.php"); ?>
         <script type="text/javascript" src="scripts/jquery-scrollbox.min.js"></script>
-        <script type="text/javascript" src="scripts/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
         <script type="text/javascript">
 
             $.when($.ajax("Controllers/Pledges/GetPledgeList.php")).done(function(pledges_json){

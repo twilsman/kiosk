@@ -16,7 +16,7 @@ html, body{
 }
 p{
     margin-bottom: 10px;
-    line-height: 1em;
+    line-height: 1.2em;
 }
 
 h3{
@@ -29,8 +29,8 @@ ul.copy-list{
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-bottom: 50px;
-    line-height: 1em;
+    margin-bottom: 10px;
+    line-height: 1.1em;
 }
 
 ul.copy-list li:before {
@@ -60,6 +60,7 @@ ul.copy-list li:before {
     padding-right:25px;
     background-color: #CECED2;
     margin-top: 20px;
+	margin-bottom: 0;
     font-size: 1.2em;
 }
 
@@ -76,9 +77,10 @@ ul.copy-list li:before {
 
 .i-promise{
     background-image:url(../images/pitchPRomiseButton.png);
+	background-color: rgba(0,0,0,0);
     border: none;
-    width: 100px;
-    height: 26px;
+    width: 171px;
+    height: 50px;
     border: none;
 }
 
@@ -144,6 +146,15 @@ label span{
     .spread-the-word{
 
     }
+	
+	.social-icons{
+		margin-top: 20px;
+	}
+		.social-icon{
+			display: inline-block;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
 
 .footer{
     position: absolute;
