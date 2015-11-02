@@ -4,7 +4,7 @@
         public $LastName;
         public $Company;
         public $Email;
-        public $State;
-        public $Twitter;
+        public $Country;
+        public $Title;
     }
  ?>

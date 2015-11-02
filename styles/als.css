@@ -4,8 +4,8 @@
 
 .als-container {
 	position: relative;
-	width: 100%;
-	margin: 0px auto;
+	/*width: 100%;*/
+	/*margin: 0px auto;*/
 	z-index: 0;
 }
 
@@ -16,7 +16,7 @@
 .als-viewport {
 	position: relative;
 	overflow: hidden;
-	margin: 0px auto;
+	/*margin: 0px auto;*/
 }
 
 /***************************************************
@@ -27,6 +27,7 @@
 	position: relative;
 	/* if you are using a list with <ul> <li> */
 	list-style: none;
+	/*padding-left: 0px;*/
 }
 
 /*************************************
@@ -36,9 +37,10 @@
 .als-item {
 	position: relative;
 	display: block;
-	text-align: center;
+	text-align: left;
 	cursor: pointer;
 	float: left;
+	min-width: 500px;
 }
 
 /***********************************************

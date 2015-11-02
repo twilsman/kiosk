@@ -1,29 +1,22 @@
 <?php
-    include "../config.php";
-    include "../DataContracts/Pledge.php";
-    include "../DataContracts/DbContext.php";
-    include "../DatabaseAccess/PledgeAccessor.php";
+class PledgeManager{
+    private  $_pledgeAccessor;
 
-    $pledgeAccessor = new PledgeAccessor();
+    function __construct(){
+        $this->_pledgeAccessor = new PledgeAccessor();
+    }
 
-    $pc = new Pledge();
+    function CreatePledge(Pledge $pledge, DbContext $dc){
+        return $this->_pledgeAccessor->Create($pledge, $dc);
+    }
 
-    $pc->FirstName = $_POST["first_name"];
-    $pc->LastName = $_POST["last_name"];
-    $pc->Company = $_POST["company"];
-    $pc->Email = $_POST["email"];
-    $pc->State = $_POST["state"];
-    $pc->Twitter = $_POST["twitter"];
+    function GetCompanyList(DbContext $dc){
+        return $this->_pledgeAccessor->GetCompanyList($dc);
+    }
 
+    function DeletePledge($pledgeId, DbContext $dc){
+        $this->_pledgeAccessor->Delete($pledgeId, $dc);
+    }
 
-    $dc = new DbContext();
-    $dc->ServerName = SERVERNAME;
-    $dc->DatabaseName = DATABASENAME;
-    $dc->UserName = USERNAME;
-    $dc->Password = PASSWORD;
-    $dc->Port = DBPORT;
-
-    $pledgeAccessor->CreatePledge($pc, $dc);
-
-    header("Location: ../thankyou.html");
+}
  ?>
