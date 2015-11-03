@@ -13,5 +13,5 @@ $pledge->Title = $_POST["title"];
 $pledgeManager = new PledgeManager();
 $result = $pledgeManager->CreatePledge($pledge, $dc);
 
-header("Location: ../../thankyou.html");
+header("Location: ../../thankyou.php");
 ?>

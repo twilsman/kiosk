@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="footer">
-                <a href="index.html">Back to pledge</a>
+                <a href="index.php">Back to pledge</a>
             </div>
         </div>
 		<?php require_once("partials/footer_scripts.php"); ?>
