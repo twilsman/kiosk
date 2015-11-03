@@ -1,3 +1,12 @@
+<?php
+	session_start();
+	
+	if(isset($_SESSION['cmarketops_logged_in']) && $_SESSION['cmarketops_logged_in'] == '<keOwl1)zerl#2ke'){}
+	else{
+		die('');
+	}
+?>
+
 <html>
     <head>
         <title></title>
