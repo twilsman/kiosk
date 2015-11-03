@@ -315,7 +315,7 @@
                         </p>
 
 						<p>
-							I, <span style="text-decoration: underline;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>, pledge to:
+							I pledge to:
 						</p>
 						
                         <ul class="copy-list">
