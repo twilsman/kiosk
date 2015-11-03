@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS `pledges`;
+DROP TABLE IF EXISTS `Pledges`;
 
-CREATE TABLE `pledges` (
+CREATE TABLE `Pledges` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `first` varchar(200) NOT NULL,
   `last` varchar(200) NOT NULL,
