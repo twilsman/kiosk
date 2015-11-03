@@ -351,7 +351,7 @@
 
                     var $pledges = "<li class='row scroll-item'>\
                                     <div class='col-xs-6 scroll-name'>"+pledge.first +" "+ pledge.last +"</div>\
-                                    <div class='col-xs-3 col-xs-push-3 scroll-company'>"+ pledge.company +"</div>\
+                                    <div class='col-xs-4 col-xs-push-2 scroll-company'>"+ pledge.company +"</div>\
                                     </li>";
                     $(".scroller-wrapper").append($pledges)
                 });
