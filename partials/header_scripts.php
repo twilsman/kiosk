@@ -2,6 +2,7 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="scripts/bootstrap-3.3.5-dist/css/bootstrap.min.css" />
 <link rel="stylesheet" href="styles/kiosk.css" />
+<link type="image/png" href="http://cision-wp-files.s3.amazonaws.com/se/wp-content/uploads/2015/10/favicon.png" rel="icon">
 
 <!-- Universal Analytics -->
 <script>

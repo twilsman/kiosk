@@ -22,7 +22,7 @@
                                 <img class="social-icon" width="70" src="images/SocialIcons-01.png" alt="twitter" />
                             </a>
 
-                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.cision.com/pitchpromise">
+                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://www.cision.com/pitchpromise/">
                                 <img class="social-icon" width="70" src="images/SocialIcons-02.png" alt="facebook" />
                             </a>
 
