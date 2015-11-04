@@ -1,8 +1,23 @@
 <html>
 
     <head>
-       
-        <title></title>
+        <title>#pitchPRomise - No blasts. No Spam. No Shortcuts.</title>
+        <meta name="description" content="Sign the #pitchPRomise to share your commitment to focusing on relationships and practicing smarter influencer relations." />
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="Sign the #pitchPRomise to share your commitment to focusing on relationships and practicing smarter influencer relations.">
+        <meta name="twitter:site" content="@cision">
+        <meta name="twitter:title" content="#pitchPRomise - No blasts. No Spam. No Shortcuts.">
+        <meta name="twitter:description" content="Sign the #pitchPRomise to share your commitment to focusing on relationships and practicing smarter influencer relations.">
+        <meta name="twitter:creator" content="@cision">
+        <!-- Twitter Summary card images must be at least 120x120px -->
+        <meta name="twitter:image" content="http://www.cision.com/pitchpromise/images/pitchPRomise_Badge2.png">
+        <!-- Open Graph data -->
+        <meta property="og:title" content="#pitchPRomise - No blasts. No Spam. No Shortcuts." />
+        <meta property="og:type" content="Sign the #pitchPRomise to share your commitment to focusing on relationships and practicing smarter influencer relations." />
+        <meta property="og:url" content="http://www.cision.com/pitchpromise/" />
+        <meta property="og:image" content="http://www.cision.com/pitchpromise/images/pitchPRomise_Badge2.png" />
+        <meta property="og:description" content="Sign the #pitchPRomise to share your commitment to focusing on relationships and practicing smarter influencer relations." />
+        <meta property="og:site_name" content="#pitchPRomise" />
 		<?php require_once("partials/header_scripts.php"); ?>
     </head>
 
@@ -307,17 +322,17 @@
                         </h3>
 
                         <p>
-                            Technology can help PR pros work faster, 
-							but it can’t replace one of the core tenants on which the industry is built: <span style="font-weight: bold; font-style: italic;">Relationships</span>. 
-							Don’t sit back and simply let technology do your job for you. 
-							Instead, sign the #pitchPRomise to share your commitment to focusing on relationships 
+                            Technology can help PR pros work faster,
+							but it can’t replace one of the core tenants on which the industry is built: <span style="font-weight: bold; font-style: italic;">Relationships</span>.
+							Don’t sit back and simply let technology do your job for you.
+							Instead, sign the #pitchPRomise to share your commitment to focusing on relationships
 							and practicing smarter influencer relations.
                         </p>
 
 						<p>
 							I pledge to:
 						</p>
-						
+
                         <ul class="copy-list">
                             <li>Treat influencers as valued partners – not commodities, outlets or channels.</li>
                             <li>Respect the inbox and preferences of influencers I engage, instead of spamming them with irrelevant pitches and non-personalized communications.</li>

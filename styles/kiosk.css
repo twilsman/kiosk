@@ -46,15 +46,15 @@ ul.copy-list li:before {
     background-color: #053A4F;
 }
 
-.cision-logo-container{
-    padding-top: 30px;
-}
+    .cision-logo-container{
+        padding-top: 30px;
+    }
 
-.pitch-logo-container{
-    color: white;
-    font-size: 3.2em;
-    padding-left: 55px;
-}
+    .pitch-logo-container{
+        color: white;
+        font-size: 3.2em;
+        padding-left: 55px;
+    }
 
 .pledge-form{
     padding-top: 10px;
@@ -66,68 +66,65 @@ ul.copy-list li:before {
 	margin-bottom: 0;
     font-size: 1.2em;
 }
+    .required{
+        color: #F15D22;
+        display: inline;
+    }
+    .promise-now{
+        font-weight: bold;
+        font-size:1.4em;
+        margin-bottom: 10px;
+        color: #4E4E4E;
+    }
+    .i-promise{
+        background-image:url(../images/pitchPRomiseButton.png);
+    	background-color: rgba(0,0,0,0);
+        border: none;
+        width: 171px;
+        height: 50px;
+        border: none;
+    }
 
-.required{
-    color: #F15D22;
-    display: inline;
-}
-.promise-now{
-    font-weight: bold;
-    font-size:1.4em;
-    margin-bottom: 10px;
-    color: #4E4E4E;
-}
+    label{
+        margin-bottom: 15px;
+        display: block;
+    }
 
-.i-promise{
-    background-image:url(../images/pitchPRomiseButton.png);
-	background-color: rgba(0,0,0,0);
-    border: none;
-    width: 171px;
-    height: 50px;
-    border: none;
-}
-
-label{
-    margin-bottom: 15px;
-    display: block;
-}
-
-label span{
-    display:block;
-}
+    label span{
+        display:block;
+    }
 
 .pledge-list.container-fluid{
     padding-left: 0px;
     padding-right: 0px;
 }
 
-.pledge-list-header{
-    text-align: center;
-    color: white;
-    background-color: #F15D22;
-    font-size: 1.5em;
-}
+    .pledge-list-header{
+        text-align: center;
+        color: white;
+        background-color: #F15D22;
+        font-size: 1.5em;
+    }
 
-.pledge-scroll{
-    overflow: hidden;
-    line-height: 1em;
-    border-left: 2px solid #B7B7B8;
-    border-right: 2px solid #B7B7B8;
-    border-bottom: 2px solid #B7B7B8;
+    .pledge-scroll{
+        overflow: hidden;
+        line-height: 1em;
+        border-left: 2px solid #B7B7B8;
+        border-right: 2px solid #B7B7B8;
+        border-bottom: 2px solid #B7B7B8;
 
-    height: 230px;
-}
+        height: 230px;
+    }
+        .scroll-item{
+            color: #B7B7B8;
+            font-size: 1.2em;
+        }
+        .scroll-name{
+        }
 
-.scroll-item{
-    color: #B7B7B8;
-    font-size: 1.2em;
-}
-.scroll-name{
-}
-
-.scroll-company{
-    text-align:right;
-}
+        .scroll-company{
+            text-align:right;
+        }
 
 .thankyou-center-content{
     text-align:center;
@@ -149,10 +146,14 @@ label span{
     .spread-the-word{
 
     }
-	
+
 	.social-icons{
 		margin-top: 20px;
 	}
+        .social-icons a:hover{
+            text-decoration: none;
+        }
+
 		.social-icon{
 			display: inline-block;
 			margin-left: 10px;
