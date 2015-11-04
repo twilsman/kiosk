@@ -70,7 +70,7 @@ class PledgeAccessor{
         }
         else{
 
-            $select_stmt = "SELECT id, first, last, company, email, country, title FROM Pledges";
+            $select_stmt = "SELECT id, first, last, company, email, country, title FROM Pledges ORDER BY id DESC";
 
             if($result = $mysqli->query($select_stmt)){
                 return $result;
