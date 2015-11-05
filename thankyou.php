@@ -18,7 +18,7 @@
                     <div class="row social-icons">
 						<div class=col-xs-4></div>
 						<div class=col-xs-4>
-                            <a target="_blank" href="https://twitter.com/intent/tweet?url=http://www.cision.com/pitchPRomise&text=I%20just%20took%20%40Cision%27s%20%23pitchPRpromise%20to%20pitch%20responsibly%20%26%20engage%20in%20smarter%20influencer%20relations.%20Your%20turn%3A">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?url=http://www.cision.com/pitchpromise&text=I%20just%20took%20%40Cision%27s%20%23pitchPRpromise%20to%20pitch%20responsibly%20%26%20engage%20in%20smarter%20influencer%20relations.%20Your%20turn%3A">
                                 <img class="social-icon" width="70" src="images/SocialIcons-01.png" alt="twitter" />
                             </a>
 
