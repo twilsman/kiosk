@@ -26,7 +26,7 @@
                                 <img class="social-icon" width="70" src="images/SocialIcons-02.png" alt="facebook" />
                             </a>
 
-                            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//www.cision.com/pitchpromise&title=Take%20the%20Cision%20%23pitchPRomise&summary=Technology%20can%20help%20PR%20pros%20work%20faster,%20but%20it%20can%E2%80%99t%20replace%20one%20of%20the%20core%20tenants%20on%20which%20the%20industry%20is%20built%3A%20Relationships.%20Don%E2%80%99t%20sit%20back%20and%20simply%20let%20technology%20do%20your%20job%20for%20you.%20Instead,%20sign%20the%20%23pitchPRomise%20to%20share%20your%20commitment%20to%20focusing%20on%20relationships%20and%20practicing%20smarter%20influencer%20relations.&source=">
+                            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//www.cision.com/pitchpromise&title=Take%20the%20Cision%20%23pitchPRomise&summary=Technology%20can%20help%20PR%20pros%20work%20faster,%20but%20it%20can%E2%80%99t%20replace%20one%20of%20the%20core%20tenets%20on%20which%20the%20industry%20is%20built%3A%20Relationships.%20Don%E2%80%99t%20sit%20back%20and%20simply%20let%20technology%20do%20your%20job%20for%20you.%20Instead,%20sign%20the%20%23pitchPRomise%20to%20share%20your%20commitment%20to%20focusing%20on%20relationships%20and%20practicing%20smarter%20influencer%20relations.&source=">
     							<img class="social-icon" width="70" src="images/SocialIcons-03.png" alt="linkedin" />
                             </a>
 						</div>

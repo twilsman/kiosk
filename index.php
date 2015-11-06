@@ -323,7 +323,7 @@
 
                         <p>
                             Technology can help PR pros work faster,
-							but it can’t replace one of the core tenants on which the industry is built: <span style="font-weight: bold; font-style: italic;">Relationships</span>.
+							but it can’t replace one of the core tenets on which the industry is built: <span style="font-weight: bold; font-style: italic;">Relationships</span>.
 							Don’t sit back and simply let technology do your job for you.
 							Instead, sign the #pitchPRomise to share your commitment to focusing on relationships
 							and practicing smarter influencer relations.
