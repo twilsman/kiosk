@@ -125,7 +125,7 @@ ul.copy-list li:before {
         .scroll-company{
             text-align:right;
         }
-
+		
 .thankyou-center-content{
     text-align:center;
     padding-top: 40px;
@@ -172,7 +172,14 @@ ul.copy-list li:before {
     text-decoration: underline;
     color: #B7B7B8;
 }
-
+.partner_logos {
+	margin-bottom: 30px;
+}
+.partner_logos img {
+	width: 30%;
+	display: inline-block;
+	margin: 0 1%;
+}
 @media (max-width: 480px){
     .pitch-logo-container{
         color: white;
@@ -183,5 +190,12 @@ ul.copy-list li:before {
     .pledge-list{
         display: none;
     }
-
+	
+	.partner_logos {
+		text-align: center;
+	}
+	.partner_logos img {
+		width: 75%;
+		margin: 10px auto;
+	}
 }
