@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 // Contains necessary includes and Creates DbContext $dc.
 include_once("InitPledgeAction.php");
 
