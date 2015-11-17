@@ -348,16 +348,19 @@
                                 </ul>
                             </div>
                         </div>
-
-						<h3>In partnership with...</h3>
-						<div class='partner_logos'>
-							<a href='http://www.latinabloggersconnect.com/' target='_blank'><img src='images/partner_logos/LatinaBloggersConnect.png'/></a>
-							<a href='http://spinsucks.com/' target='_blank'><img src='images/partner_logos/spinsucks.png'/></a>
-							<a href='http://shonaliburke.com/' target='_blank'><img src='images/partner_logos/shonali-burke-consulting.png'/></a>
-						</div>
                     </div>
 
                 </div>
+				
+				<div class='row'>
+					<h3>In partnership with...</h3>
+					<div class='partner_logos'>
+						<a href='http://www.latinabloggersconnect.com/' target='_blank'><img src='images/partner_logos/LatinaBloggersConnect.png'/></a>
+						<a href='http://spinsucks.com/' target='_blank'><img src='images/partner_logos/spinsucks.png'/></a>
+						<a href='http://shonaliburke.com/' target='_blank'><img src='images/partner_logos/shonali-burke-consulting.png'/></a>
+						<a href='http://michaelsmartpr.com/' target='_blank'><img src='images/partner_logos/MSPR.png'/></a>
+					</div>
+				</div>
             </div>
 
         </div>

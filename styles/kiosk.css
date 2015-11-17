@@ -174,11 +174,18 @@ ul.copy-list li:before {
 }
 .partner_logos {
 	margin-bottom: 30px;
+	text-align: center;
 }
 .partner_logos img {
-	width: 30%;
+	width: 20%;
 	display: inline-block;
-	margin: 0 1%;
+	margin: 0 2%;
+}
+
+@media (max-width: 800px){
+	.partner_logos img {
+		width: 45%;
+	}
 }
 @media (max-width: 480px){
     .pitch-logo-container{
@@ -196,6 +203,6 @@ ul.copy-list li:before {
 	}
 	.partner_logos img {
 		width: 75%;
-		margin: 10px auto;
+		margin: 0 auto 30px auto;
 	}
 }
