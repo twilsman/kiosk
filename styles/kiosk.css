@@ -118,6 +118,8 @@ ul.copy-list li:before {
         .scroll-item{
             color: #B7B7B8;
             font-size: 1.2em;
+			padding: 2px 0;
+			border-bottom: 1px dashed;
         }
         .scroll-name{
         }
